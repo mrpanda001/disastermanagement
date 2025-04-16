@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Resources - Disaster Management Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white shadow-lg animate-slide-in">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <i class="fas fa-shield-alt text-2xl mr-2 animate-rotate"></i>
+                    <span class="font-semibold text-xl">Disaster Management Portal</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-white hover:text-blue-200 hover-lift">Home</a>
+                    <a href="report.html" class="text-white hover:text-blue-200 hover-lift">Report</a>
+                    <a href="resources.html" class="text-white hover:text-blue-200 hover-lift">Resources</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resources Section -->
+    <div class="container mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold text-center mb-12 animate-fade-in">Emergency Resources</h2>
+        
+        <!-- Emergency Preparedness -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-semibold mb-6 animate-fade-in">Emergency Preparedness</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 stagger-animation">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/emergency-kit.jpg" alt="Emergency Kit" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <i class="fas fa-first-aid text-4xl text-blue-600 mb-4 animate-bounce"></i>
+                    <h4 class="text-xl font-semibold mb-3">Emergency Kit Checklist</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Water (1 gallon per person per day)</li>
+                        <li>Non-perishable food</li>
+                        <li>First aid kit</li>
+                        <li>Flashlight and batteries</li>
+                        <li>Emergency blanket</li>
+                        <li>Important documents</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/home-safety.jpg" alt="Home Safety" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <i class="fas fa-home text-4xl text-blue-600 mb-4 animate-bounce" style="animation-delay: 0.2s;"></i>
+                    <h4 class="text-xl font-semibold mb-3">Home Safety Tips</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Create an evacuation plan</li>
+                        <li>Know your emergency exits</li>
+                        <li>Install smoke detectors</li>
+                        <li>Secure heavy furniture</li>
+                        <li>Keep emergency numbers visible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Emergency Procedures -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-semibold mb-6 animate-fade-in">Emergency Procedures</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-animation">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/fire-safety.jpg" alt="Fire Safety" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <i class="fas fa-fire text-4xl text-red-600 mb-4 animate-pulse"></i>
+                    <h4 class="text-xl font-semibold mb-3">Fire Safety</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Stop, Drop, and Roll</li>
+                        <li>Use fire extinguisher (PASS method)</li>
+                        <li>Stay low in smoke</li>
+                        <li>Check doors for heat before opening</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/flood-safety.jpg" alt="Flood Safety" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <i class="fas fa-umbrella text-4xl text-blue-600 mb-4 animate-pulse" style="animation-delay: 0.2s;"></i>
+                    <h4 class="text-xl font-semibold mb-3">Flood Safety</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Move to higher ground</li>
+                        <li>Avoid walking through floodwater</li>
+                        <li>Turn off electricity</li>
+                        <li>Follow evacuation orders</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/earthquake-safety.jpg" alt="Earthquake Safety" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <i class="fas fa-mountain text-4xl text-gray-600 mb-4 animate-pulse" style="animation-delay: 0.4s;"></i>
+                    <h4 class="text-xl font-semibold mb-3">Earthquake Safety</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Drop, Cover, and Hold On</li>
+                        <li>Stay away from windows</li>
+                        <li>Protect your head and neck</li>
+                        <li>Stay indoors until shaking stops</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Emergency Contacts -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-semibold mb-6 animate-fade-in">Emergency Contacts</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 stagger-animation">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/emergency-services.jpg" alt="Emergency Services" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <h4 class="text-xl font-semibold mb-4">Local Emergency Services</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-center hover-lift">
+                            <i class="fas fa-phone-alt text-blue-600 mr-3 animate-pulse"></i>
+                            <div>
+                                <p class="font-semibold">Police Department</p>
+                                <p class="text-gray-600">911</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center hover-lift">
+                            <i class="fas fa-fire-extinguisher text-red-600 mr-3 animate-pulse" style="animation-delay: 0.2s;"></i>
+                            <div>
+                                <p class="font-semibold">Fire Department</p>
+                                <p class="text-gray-600">911</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center hover-lift">
+                            <i class="fas fa-ambulance text-red-600 mr-3 animate-pulse" style="animation-delay: 0.4s;"></i>
+                            <div>
+                                <p class="font-semibold">Medical Emergency</p>
+                                <p class="text-gray-600">911</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                    <!-- <img src="assets/support-services.jpg" alt="Support Services" class="w-full h-48 object-cover rounded-lg mb-4 hover-scale"> -->
+                    <h4 class="text-xl font-semibold mb-4">Support Services</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-center hover-lift">
+                            <i class="fas fa-hands-helping text-green-600 mr-3 animate-pulse"></i>
+                            <div>
+                                <p class="font-semibold">Red Cross</p>
+                                <p class="text-gray-600">1-800-RED-CROSS</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center hover-lift">
+                            <i class="fas fa-phone-volume text-blue-600 mr-3 animate-pulse" style="animation-delay: 0.2s;"></i>
+                            <div>
+                                <p class="font-semibold">Poison Control</p>
+                                <p class="text-gray-600">1-800-222-1222</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 animate-fade-in">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2024 Community Disaster Management Portal</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-blue-400 hover-lift"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-blue-400 hover-lift"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-blue-400 hover-lift"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/resources.js"></script>
+</body>
+</html> 
